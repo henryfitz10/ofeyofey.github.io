@@ -2,55 +2,58 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Carousel</title>
-    <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+    <title>Open Sales Orders/title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
   </head>
   <body>
-    <h1>Carousel</h1>
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Carousel indicators -->
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-        <li data-target="#myCarousel" data-slide-to="4"></li>
-    </ol>
+    <h3>Open Sales Orders:</h3>
     <!-- Wrapper for carousel items -->
-    <div class="carousel-inner">
-        <div class="item active">
-            <img src="https://unsplash.it/2000/1250?image=397" alt="First Slide">
-        </div>
-        <div class="item">
-            <img src="https://unsplash.it/2000/1250?image=689" alt="Second Slide">
-        </div>
-        <div class="item">
-            <img src="https://unsplash.it/2000/1250?image=675" alt="Third Slide">
-        </div>
-        <div class="item">
-            <img src="https://unsplash.it/2000/1250?image=658" alt="Fourth Slide">
-        </div>
-        <div class="item">
-            <img src="https://unsplash.it/2000/1250?image=638" alt="Fifth Slide">
-        </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Order no.</th>
+              <th>Descr.</th>
+              <th>Date</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>007</td>
+              <td>Open</td>
+              <td>12-1-16</td>
+              <td>€650</td>
+            </tr>
+            <tr>
+              <th scope="row">1</th>
+              <td>005</td>
+              <td>Open</td>
+              <td>12-1-16</td>
+              <td>€670</td>
+            </tr>
+            <tr>
+              <th scope="row">1</th>
+              <td>017</td>
+              <td>Closed</td>
+              <td>12-3-14</td>
+              <td>€540</td>
+            </tr>
+            <tr>
+              <th scope="row">1</th>
+              <td>081</td>
+              <td>Open</td>
+              <td>12-11-16</td>
+              <td>€1270</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-    <!-- Carousel controls -->
-    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-    </a>
-    <a class="carousel-control right" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-    </a>
-</div>
-<script src="http://code.jquery.com/jquery.min.js"></script>
-<script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
   </body>
-      <!-- <script type="text/javascript">
-      $(document).ready(function(){
-           $("#myCarousel").carousel({
-               interval : 3000,
-               pause: false
-           });
-      });
-      </script> -->
 </html>
