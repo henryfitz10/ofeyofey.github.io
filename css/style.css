@@ -1,10 +1,7 @@
-#login{
+#login {
     position: absolute;
     top: 1300px;
-    margin: 15px;
+    align-self: center;
     height: 150px;
     font-size: 36px;
-}
-section{
-    align-content: center;
 }
