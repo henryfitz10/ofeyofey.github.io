@@ -5,3 +5,36 @@
     height: 150px;
     font-size: 36px;
 }
+
+#login-modal{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 600px;
+    height: 200px;
+}
+
+.form-label {
+    display: block;
+    text-align: center;
+    margin: 10px;
+}
+
+.signin{
+    margin-top: 50px;
+}
+
+#submitbtn{
+    display: block;
+    text-align: center;
+    margin: 15px 10px 10px 10px;
+}
+
+#loginsection{
+    margin: 50px;
+}
+#userlabel{
+    text-align: left;
+}
+#passwordlabel{
+    text-align: left;
+}
