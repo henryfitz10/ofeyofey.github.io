@@ -6,6 +6,7 @@
     font-size: 36px;
 }
 
+
 #login-modal{
     border: 2px solid black;
     border-radius: 10px;
@@ -37,4 +38,27 @@
 }
 #passwordlabel{
     text-align: left;
+}
+
+.btn-grey {
+  /*background: rgb(34,34,34);*/
+  background: rgb(110,110,110);
+  color: black;
+  border: none;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important; /* !important tags aren't necessarily always bad */
+}
+.btn-grey:hover, .btn-grey:focus {
+  background: rgb(187,188,191);
+}
+.btn-grey:active {
+  background: rgb(40,40,40);
+  color: white;
+}
+.btn-size {
+  padding: 5px 5px;
+  font-size: 12px;
+  border-radius: 4px;
+
 }
